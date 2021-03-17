@@ -31,19 +31,11 @@ use_git_config(user.name = "Jane Doe", user.email = "jane@example.org")
 
 Go to <https://github.com> and make sure you are logged in.
 
-image
-Click the green "New repository" button. Or, if you are on your own profile page, click on "Repositories", then click the green "New" button.
 
+![](screenshots/new-repo-1.png)
+![](screenshots/new-repo-2.png)
 
-image
-**Private**  
-YES Initialize this repository with a README
-
-Click the big green button "Create repository."
-
-
-image
-Copy the HTTPS clone URL to your clipboard via the green "Clone or Download" button. Or copy the SSH URL if you chose to set up SSH keys.
+## Copy the HTTPS clone URL to your clipboard
 
 ## New RStudio Project via git clone
 

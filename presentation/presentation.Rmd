@@ -74,6 +74,12 @@ Go to <https://github.com> and make sure you are logged in.
 
 ## Git dans Rstudio
 
+![](screenshots/Rstudio-git-1.png)
+
+## Git dans Rstudio
+
+![](screenshots/Rstudio-git-2.png)
+
 In RStudio, consult the Git pane and the file browser.
 
   * Are you seeing all the files? They should be here if your move/copy was successful.

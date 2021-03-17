@@ -119,7 +119,7 @@ If you click on "commits," you should see one with the message your wrote.
 - sauvegarder vos fichiers
 - regarder git Diff
 
-## si vous voulez garder ces changements
+## Si vous voulez garder ces changements
 
 - sélectionner les fichiers à changer (stage)
 - regarder les changements
@@ -127,7 +127,7 @@ If you click on "commits," you should see one with the message your wrote.
 
 ## Pour les changements que vous ne voulez pas garder
 
-- Revert
+![](screenshots/git-revert.png){width=80%}
 
 ## Well done 
 
@@ -136,6 +136,9 @@ If you click on "commits," you should see one with the message your wrote.
   - Le lier avec github
   - Sauvegarder vos changements
 
+. . .
+
+- Comment ignorer les fichiers que l'on ne peut pas suivre
 
 
 ## Utiliser gitignore

@@ -33,33 +33,33 @@ Go to <https://github.com> and make sure you are logged in.
 
 ## Créer un nouveau repo
 
-![](screenshots/new-repo-1.png)
+![](screenshots/new-repo-1.png){width=80%}
 
 ## Initialiser le nouveau repo
 
-![](screenshots/new-repo-2.png)
+![](screenshots/new-repo-2.png){width=80%}
 
 ## Copier le lien pour cloner le repo
 
-![](screenshots/new-repo-3.png)
+![](screenshots/new-repo-3.png){width=80%}
 
 # New RStudio Project via git clone
 
 ## Créer un nouveau projet
 
-![](screenshots/Rstudio-project-0.png)
+![](screenshots/Rstudio-project-0.png){width=80%}
 
 ## Créer un nouveau projet
 
-![](screenshots/Rstudio-project-1.png)
+![](screenshots/Rstudio-project-1.png){width=80%}
 
 ## Créer un nouveau projet
 
-![](screenshots/Rstudio-project-2.png)
+![](screenshots/Rstudio-project-2.png){width=80%}
 
 ## Créer un nouveau projet
 
-![](screenshots/Rstudio-project-3.png)
+![](screenshots/Rstudio-project-3.png){width=80%}
 
 ## Votre dossier actuel
 
@@ -74,27 +74,27 @@ Go to <https://github.com> and make sure you are logged in.
 
 ## Git dans Rstudio
 
-![](screenshots/Rstudio-git-1.png)
+![](screenshots/Rstudio-git-1.png){width=80%}
 
 ## Git dans Rstudio
 
-![](screenshots/Rstudio-git-2.png)
+![](screenshots/Rstudio-git-2.png){width=80%}
   
 ## Stage and commit
 
-![](screenshots/Rstudio-git-3.png)
+![](screenshots/Rstudio-git-3.png){width=80%}
 
 ## Stage and commit
 
-![](screenshots/Rstudio-git-4.png)
+![](screenshots/Rstudio-git-4.png){width=80%}
 
 ## Stage and commit
 
-![](screenshots/Rstudio-git-5.png)
+![](screenshots/Rstudio-git-5.png){width=80%}
 
 ## Stage and commit
 
-![](screenshots/Rstudio-git-6.png)
+![](screenshots/Rstudio-git-6.png){width=80%}
 
 ## Push your local changes to GitHub
 
@@ -125,22 +125,35 @@ If you click on "commits," you should see one with the message your wrote.
 - regarder les changements
 - commit
 
-## Utiliser gitignore
+## Pour les changements que vous ne voulez pas garder
 
-![](screenshots/git-ignore-1.png)
+- Revert
 
-## Utiliser gitignore
+## Well done 
 
-![](screenshots/git-ignore-2.png)
+- Désormais, vous savez:
+  - initier un dépôt git 
+  - Le lier avec github
+  - Sauvegarder vos changements
 
-## Utiliser gitignore
 
-![](screenshots/git-ignore-3.png)
-
-## Utiliser gitignore
-
-![](screenshots/git-ignore-4.png)
 
 ## Utiliser gitignore
 
-![](screenshots/git-ignore-5.png)
+![](screenshots/git-ignore-1.png){width=80%}
+
+## Utiliser gitignore
+
+![](screenshots/git-ignore-2.png){width=80%}
+
+## Utiliser gitignore
+
+![](screenshots/git-ignore-3.png){width=80%}
+
+## Utiliser gitignore
+
+![](screenshots/git-ignore-4.png){width=80%}
+
+## Utiliser gitignore
+
+![](screenshots/git-ignore-5.png){width=80%}

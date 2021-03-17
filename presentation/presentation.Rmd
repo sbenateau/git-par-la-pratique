@@ -1,38 +1,131 @@
 ---
-  title: Git par la pratique
+title: Git par la pratique
 author: Alain Danet / https://alaindanet.github.io
 date: \today
 institute: CESCO Lab / MNHN
-output: binb::metropolis
+output: ioslides_presentation
 ---
   
-  ```{r, eval = TRUE, echo = FALSE}
-knitr::opts_chunk$set(
-  echo = TRUE,
-  eval = FALSE,
-  fig.dim = c(10, 7) #width, height
-)
-library(devtools)
-setwd(dirname(getwd()))
+## Plan de la présentation
 
+- Créer un repo sur GitHub
+- Créer un projet Rstudi (git clone)
+- Copier votre projet
+- Faire des changements, enregistrer, et commit
+- Envoyer vos changements sur GitHub
+
+
+## Dites bonjour à git
+
+Pour vérifier l'installation de git et établir la connexion :
+
+```{r, eval = FALSE}
+## install if needed (do this exactly once):
+## install.packages("usethis")
+
+library(usethis)
+use_git_config(user.name = "Jane Doe", user.email = "jane@example.org")
 ```
 
-# Set up a package compendium
+## Make a repo on GitHub
 
-## What do you need ?
+Go to <https://github.com> and make sure you are logged in.
 
-
-## Resources 
-
-- [R packages book](http://r-pkgs.had.co.nz/) 
-
-## Architecture
-
-- [Publish your code](../papers/Barnes - 2010 - Publish your computer code it is_good_enough.pdf)
-- [Compendium](../papers/Marwick et al. - 2018 - Packaging Data Analytical
-               Work Reproducibly Using .pdf)
-- [Recent example](../papers/Ponisio et al. - 2017 - Opportunistic attachment
-                   assembles plant-pollinato.pdf)
-- [Github repo](https://github.com/lponisio/hedgerow_assembly)
+image
+Click the green "New repository" button. Or, if you are on your own profile page, click on "Repositories", then click the green "New" button.
 
 
+image
+**Private**  
+YES Initialize this repository with a README
+
+Click the big green button "Create repository."
+
+
+image
+Copy the HTTPS clone URL to your clipboard via the green "Clone or Download" button. Or copy the SSH URL if you chose to set up SSH keys.
+
+## New RStudio Project via git clone
+
+In RStudio, start a new Project:
+
+image
+  * *File > New Project > Version Control > Git*. In the "repository URL" paste the URL of your new GitHub repository. It will be something like this `https://github.com/jennybc/myrepo.git`.
+  * Be intentional about where you create this Project.
+  * Suggest you "Open in new session".
+  * Click "Create Project" to create a new directory, which will be all of these things:
+    - a directory or "folder" on your computer
+    - a Git repository, linked to a remote GitHub repository
+    - an RStudio Project
+
+This should download the `README.md` file that we created on GitHub in the previous step. Look in RStudio's file browser pane for the `README.md` file.
+
+## Votre dossier actuel
+
+- Si votre dossier est gros attention !!!
+- nettoyage du dossier (rapide)
+  - vos documents
+  - vos données (si vous en avez)
+
+## Bring your existing project over
+
+Using your favorite method of moving or copying files, copy the files that constitute your existing project into the directory for this new project.
+
+Ouvrir l'explorateur de fichier par exemple
+
+image
+In RStudio, consult the Git pane and the file browser.
+
+  * Are you seeing all the files? They should be here if your move/copy was successful.
+  * Are they showing up in the Git pane with questions marks? They should be appearing as new untracked files.
+  
+## Stage and commit
+
+image
+Commit your files to this repo. How?
+
+  * Click the "Git" tab in upper right pane
+  * Check "Staged" box for all files you want to commit.
+    - Default: stage it.
+    - When to reconsider: this will all go to GitHub. So do consider if that is appropriate for each file. **You can absolutely keep a file locally, without committing it to the Git repo and sending to GitHub**. Just let it sit there in your Git pane, without being staged. No harm will be done. If this is a long-term situation, list the file in `.gitignore`.
+  * If you're not already in the Git pop-up, click "Commit"
+  * Type a message in "Commit message", such as "init".
+  * Click "Commit"
+
+## Push your local changes to GitHub
+
+image
+Click the green "Push" button to send your local changes to GitHub. You should see some message along these lines.
+
+``` bash
+[master dc671f0] blah
+ 3 files changed, 22 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 myrepo.Rproj
+```
+
+## Confirm the local change propagated to the GitHub remote
+
+Go back to the browser. I assume we're still viewing your new GitHub repo.
+<https://github.com> 
+
+Refresh.
+
+You should see all the project files you committed there.
+
+If you click on "commits," you should see one with the message "init".
+
+## Faire des changements dans votre dossier
+
+- faire des changements (commenter votre code par exemple)
+- sauvegarder vos fichiers
+- regarder git Diff
+
+## si vous voulez garder ces changements
+
+- sélectionner les fichiers à changer
+- commit
+
+## 
+
+Now just ... repeat. Do work somewhere. Commit it. Push it or pull it\* depending on where you did it, but get local and remote "synced up". Repeat.

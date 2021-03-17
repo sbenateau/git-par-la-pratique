@@ -98,15 +98,9 @@ Go to <https://github.com> and make sure you are logged in.
 
 ## Push your local changes to GitHub
 
-image
-Click the green "Push" button to send your local changes to GitHub. You should see some message along these lines.
+![](screenshots/Rstudio-git-7.png)
 
-``` bash
-[master dc671f0] blah
- 3 files changed, 22 insertions(+)
- create mode 100644 .gitignore
- create mode 100644 myrepo.Rproj
-```
+Click the green "Push" button to send your local changes to GitHub. 
 
 ## Confirm the local change propagated to the GitHub remote
 
@@ -117,7 +111,7 @@ Refresh.
 
 You should see all the project files you committed there.
 
-If you click on "commits," you should see one with the message "init".
+If you click on "commits," you should see one with the message your wrote.
 
 ## Faire des changements dans votre dossier
 
@@ -127,9 +121,26 @@ If you click on "commits," you should see one with the message "init".
 
 ## si vous voulez garder ces changements
 
-- sélectionner les fichiers à changer
+- sélectionner les fichiers à changer (stage)
+- regarder les changements
 - commit
 
-## 
+## Utiliser gitignore
 
-Now just ... repeat. Do work somewhere. Commit it. Push it or pull it\* depending on where you did it, but get local and remote "synced up". Repeat.
+![](screenshots/git-ignore-1.png)
+
+## Utiliser gitignore
+
+![](screenshots/git-ignore-2.png)
+
+## Utiliser gitignore
+
+![](screenshots/git-ignore-3.png)
+
+## Utiliser gitignore
+
+![](screenshots/git-ignore-4.png)
+
+## Utiliser gitignore
+
+![](screenshots/git-ignore-5.png)

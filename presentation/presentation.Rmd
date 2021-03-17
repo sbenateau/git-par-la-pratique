@@ -79,24 +79,22 @@ Go to <https://github.com> and make sure you are logged in.
 ## Git dans Rstudio
 
 ![](screenshots/Rstudio-git-2.png)
-
-In RStudio, consult the Git pane and the file browser.
-
-  * Are you seeing all the files? They should be here if your move/copy was successful.
-  * Are they showing up in the Git pane with questions marks? They should be appearing as new untracked files.
   
 ## Stage and commit
 
-image
-Commit your files to this repo. How?
+![](screenshots/Rstudio-git-3.png)
 
-  * Click the "Git" tab in upper right pane
-  * Check "Staged" box for all files you want to commit.
-    - Default: stage it.
-    - When to reconsider: this will all go to GitHub. So do consider if that is appropriate for each file. **You can absolutely keep a file locally, without committing it to the Git repo and sending to GitHub**. Just let it sit there in your Git pane, without being staged. No harm will be done. If this is a long-term situation, list the file in `.gitignore`.
-  * If you're not already in the Git pop-up, click "Commit"
-  * Type a message in "Commit message", such as "init".
-  * Click "Commit"
+## Stage and commit
+
+![](screenshots/Rstudio-git-4.png)
+
+## Stage and commit
+
+![](screenshots/Rstudio-git-5.png)
+
+## Stage and commit
+
+![](screenshots/Rstudio-git-6.png)
 
 ## Push your local changes to GitHub
 

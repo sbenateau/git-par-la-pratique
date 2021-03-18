@@ -1,6 +1,6 @@
 ---
 title: Git par la pratique
-author: Alain Danet / https://alaindanet.github.io
+author: Simon Bénateau et Alain Danet 
 date: \today
 institute: CESCO Lab / MNHN
 output: ioslides_presentation
@@ -160,3 +160,8 @@ If you click on "commits," you should see one with the message your wrote.
 ## Utiliser gitignore
 
 ![](screenshots/git-ignore-5.png){width=80%}
+
+## À vous de jouer
+
+- Rejoingnez une salle
+- Réalisez le TP à l'aide de la présentation et du tuto
